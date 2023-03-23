@@ -1,0 +1,59 @@
+{
+  "partitionToWriteStats" : {
+    "year=2023" : [ {
+      "fileId" : "86ad7ed2-0e4f-4498-896a-dd64dcdb478b-0",
+      "path" : "year=2023/86ad7ed2-0e4f-4498-896a-dd64dcdb478b-0_0-155-178_20230323184211330.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 1600000,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 1600000,
+      "totalWriteBytes" : 274497819,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 274497819,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ],
+    "year=2022" : [ {
+      "fileId" : "e09e6824-65b2-46df-ad78-e77561bb69ea-0",
+      "path" : "year=2022/e09e6824-65b2-46df-ad78-e77561bb69ea-0_0-156-179_20230323184211330.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 1600000,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 1600000,
+      "totalWriteBytes" : 274418164,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2022",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 274418164,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"testtable_record\",\"namespace\":\"hoodie.testtable\",\"fields\":[{\"name\":\"a_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"a_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"b_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"c_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"year\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"month\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"pcf\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"header\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "CLUSTER",
+  "partitionToReplaceFileIds" : {
+    "year=2023" : [ "32fda350-d7e7-47c8-b00d-e3c586aa8b09-0", "462c0eb6-3827-45f4-804c-55e159860306-0", "dd879c40-58da-4257-afc2-efaa58f5c9c6-0" ],
+    "year=2022" : [ "38594e18-b66b-4e1c-97f9-f83f708dce94-0", "069faebc-cd86-4375-8e87-204e99b87955-0", "2c5f02cd-63c6-4d8c-a1df-b36026fad829-0", "3aee4020-9d44-4489-a5b5-090b20f2215d-0", "81f7db92-51ee-4c00-b399-2acd056c2655-0", "4ffb6600-a762-4e16-89b4-ac5b36191ecd-0", "2681c6f0-d66b-480d-b784-c6ddabcc9367-0" ]
+  }
+}

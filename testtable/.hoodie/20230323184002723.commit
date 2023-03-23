@@ -1,0 +1,54 @@
+{
+  "partitionToWriteStats" : {
+    "year=2023" : [ {
+      "fileId" : "32fda350-d7e7-47c8-b00d-e3c586aa8b09-0",
+      "path" : "year=2023/32fda350-d7e7-47c8-b00d-e3c586aa8b09-0_0-94-115_20230323184002723.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 727300,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 727300,
+      "totalWriteBytes" : 125288764,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 125288764,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    }, {
+      "fileId" : "462c0eb6-3827-45f4-804c-55e159860306-0",
+      "path" : "year=2023/462c0eb6-3827-45f4-804c-55e159860306-0_1-94-116_20230323184002723.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 72700,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 72700,
+      "totalWriteBytes" : 13292523,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 13292523,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"testtable_record\",\"namespace\":\"hoodie.testtable\",\"fields\":[{\"name\":\"a_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"a_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"b_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"c_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"year\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"month\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"pcf\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"header\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT"
+}

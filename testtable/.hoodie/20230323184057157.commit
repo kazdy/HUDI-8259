@@ -1,0 +1,54 @@
+{
+  "partitionToWriteStats" : {
+    "year=2023" : [ {
+      "fileId" : "462c0eb6-3827-45f4-804c-55e159860306-0",
+      "path" : "year=2023/462c0eb6-3827-45f4-804c-55e159860306-0_0-130-150_20230323184057157.parquet",
+      "prevCommit" : "20230323184002723",
+      "numWrites" : 719571,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 646871,
+      "totalWriteBytes" : 123913364,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 123913364,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    }, {
+      "fileId" : "dd879c40-58da-4257-afc2-efaa58f5c9c6-0",
+      "path" : "year=2023/dd879c40-58da-4257-afc2-efaa58f5c9c6-0_1-130-151_20230323184057157.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 153129,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 153129,
+      "totalWriteBytes" : 27046904,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "year=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 27046904,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"testtable_record\",\"namespace\":\"hoodie.testtable\",\"fields\":[{\"name\":\"a_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"a_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"b_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"c_column\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"year\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"month\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"pcf\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"header\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT"
+}
