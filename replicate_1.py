@@ -26,19 +26,19 @@ spark = SparkSession \
         .getOrCreate()
 
 # separate writes as we want to create a few commits to test clustering and rollback to instant
-# df = spark.read.parquet("input_data/2022/11")
-# df.write.format("hudi").mode("append").options(**hudi_options).save(path)
+df = spark.read.parquet("input_data/2022/11")
+df.write.format("hudi").mode("append").options(**hudi_options).save(path)
 
-# df = spark.read.parquet("input_data/2022/12")
-# df.write.format("hudi").mode("append").options(**hudi_options).save(path)
+df = spark.read.parquet("input_data/2022/12")
+df.write.format("hudi").mode("append").options(**hudi_options).save(path)
 
-# df = spark.read.parquet("input_data/2023/2")
-# df.write.format("hudi").mode("append").options(**hudi_options).save(path)
+df = spark.read.parquet("input_data/2023/2")
+df.write.format("hudi").mode("append").options(**hudi_options).save(path)
 
-# df = spark.read.parquet("input_data/2023/3")
-# df.write.format("hudi").mode("append").options(**hudi_options).save(path)
+df = spark.read.parquet("input_data/2023/3")
+df.write.format("hudi").mode("append").options(**hudi_options).save(path)
 
-# assert spark.read.format("hudi").load("testtable/*").count() == 800000 * 4
+assert spark.read.format("hudi").load("testtable/*").count() == 800000 * 4
 
 # # run clustering
 df = spark.sql(f"CALL run_clustering(path => '{path}');")
