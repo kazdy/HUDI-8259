@@ -1,0 +1,32 @@
+{
+  "partitionToWriteStats" : {
+    "partitionCol1=2023" : [ {
+      "fileId" : "fd48fcce-55e7-41c0-ac14-1311432707b1-0",
+      "path" : "partitionCol1=2023/fd48fcce-55e7-41c0-ac14-1311432707b1-0_0-91-67_20230329224549386.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 100,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 100,
+      "totalWriteBytes" : 633292,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "partitionCol1=2023",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 633292,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"testtable_record\",\"namespace\":\"hoodie.testtable\",\"fields\":[{\"name\":\"col1\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col2\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col3\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col4\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col5\",\"type\":[\"null\",{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}],\"default\":null},{\"name\":\"partitionCol1\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"partitionCol2\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col6\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col7\",\"type\":[\"null\",{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}],\"default\":null},{\"name\":\"col8\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col9\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col10\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col11\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col12\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col13\",\"type\":[\"null\",{\"type\":\"fixed\",\"name\":\"fixed\",\"namespace\":\"hoodie.testtable.testtable_record.col13\",\"size\":5,\"logicalType\":\"decimal\",\"precision\":10,\"scale\":0}],\"default\":null},{\"name\":\"col14\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col15\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col16\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col17\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col18\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col19\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col20\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col21\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col22\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col23\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col24\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col25\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col26\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col27\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col28\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col29\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col30\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col31\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col32\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col33\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col34\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"col35\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col36\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col37\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col38\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col39\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"col40\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT"
+}

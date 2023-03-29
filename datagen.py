@@ -15,7 +15,6 @@ mrand = Random()
 mnumbers = Numbers()
 
 
-
 spark = SparkSession.builder.master("local[1]").config("spark.driver.memory", "8g").getOrCreate()
 
 def pyspark_df(funs, columns=None, num_rows=1, spark=spark):
