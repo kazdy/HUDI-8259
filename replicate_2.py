@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import lit
-checkpoint = "file:////Users/kazdy/workspace/hudi-clustering/checkpoint/2"
-path = "file:////Users/kazdy/workspace/hudi-clustering/testtable"
+checkpoint = "file:////Users/kazdy/workspace/HUDI-8259/checkpoint/2"
+path = "file:////Users/kazdy/workspace/HUDI-8259/testtable"
 
 hudi_options = {
     "hoodie.datasource.write.recordkey.field": "col27,col7",
@@ -20,7 +20,7 @@ spark = SparkSession \
         .builder \
         .master("local[1]") \
         .config("spark.driver.memory", "8g") \
-        .config("spark.jars.packages", "org.apache.hudi:hudi-spark3.3-bundle_2.12:0.12.1") \
+        .config("spark.jars.packages", "org.apache.hudi:hudi-spark3.3-bundle_2.12:0.13.0") \
         .config("spark.sql.extensions", "org.apache.spark.sql.hudi.HoodieSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.hudi.catalog.HoodieCatalog") \
         .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
